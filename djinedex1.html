@@ -1,0 +1,125 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Your Future</title>
+</head>
+<body>
+	<h1>
+		<b>
+			<center>
+				<i>
+
+					<ins> WELCOME TO YOUR FUTURE</ins>
+
+				</i>
+				
+			</center>
+		</b>
+	</h1>
+	<hr>
+	<iframe  style="float: right;" width="560" height="315" src="https://www.youtube.com/embed/zJqxk8ggRFE" frameborder="50%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+
+	<pre>
+"Your present state does not matter at all, time do change and wealth do fly,
+ the poor man today might be the rich tomorrow and the one with a deem future
+ might be the one with the brightest. We never know what the future has for us."
+
+ Don't let past disappointments determine your future life. Nothing you have or
+ have failed to do in the past can stop you from creating a hugely successful 
+ future, starting right now.
+
+ Make the commitment to leave the past behind. You should only use it as motivation 
+ to push you forward. You are more than capable of becoming successful, just remember
+ Your Past Doesn’t Define Your Future, believe in yourself and TAKE ACTION.
+
+Read more on Brainly.in - <a href="https://brainly.in/question/5100555#readmore">Read Me</a>
+	</pre>
+<hr>
+
+<font size="+3" color="red">Registration Form</font>
+  <form>
+     <table>
+     	<tr>
+     		<td></td>
+     		<td><input type="radio" name="initial" checked>Mr.
+     			<input type="radio" name="initial" checked>Mrs.
+     			<input type="radio" name="initial" checked>Ms.</td>
+     	</tr>
+     </table>
+   <table>
+     <tr>
+	   <td>First name:<br></td>
+	   <td><input type="text" name="FirstName" placeholder="enter FirstName"><br></td>
+	   <td>&emsp;Last name:<br></td>
+	   <td><input type="text" name="lastName" placeholder="enter lastName"><br></td>
+     </tr>
+     <tr>
+	   <td>Email:<br></td>
+	   <td><input type="text" name="Email" placeholder="example@gmail.com"><br></td>
+	   <td>&emsp;Phone No:<br></td>
+	   <td><input type="text" name="phoneno" placeholder="+91"><br></td>
+	</tr>  
+	<tr>
+	   <td>Date of Birth:<br></td>
+	     <td><input type="date" name="bday" max="2019-01-01"><br></td>
+         <td>&emsp;State</td>
+		 <td><select name="state">
+			<option value="Nagpur">Nagpur</option>
+			<option value="delhi">delhi</option>
+			<option vlaue="maharastra">maharastra</option>
+		  </select>
+	   </td>
+	</tr>
+</table>
+ <form>
+	   	<p style="font-size: 125%">
+	   	 Select course</p>
+	<input type="checkbox" name="Course1" value="Front-end Development"> Front-end Development<br>
+	<input type="checkbox" name="Course2" value="Python Programming"> Python Programming,<br>
+	<input type="checkbox" name="Course3" value="Machine Learning"> Machine Learning<br>
+	<input type="checkbox" name="Course4" value="Artificial Intelligence"> Artificial Intelligence<br>
+	<input type="checkbox" name="Course5" value="Internet Security"> Internet Security<br>
+	<input type="checkbox" name="Course6" value="Web Application Development"> Web Application Development<br>
+	<br>
+	Additional Information
+	<textarea name="add" rows=3 cols=20 placeholder="optional" wrap></textarea>
+</form>
+<br>
+<button>SUBMIT</button>
+
+</form>
+<hr>
+
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+ <object width="50%" height="500px" data="gis.html"> </object>
+ <footer role='contentinfo'>
+  <p><center>
+    &copy; Your Future and its contributors are<br>
+    Made with <span style="font-family: initial;">&#10084;</span> by <a href='https://www.google.com'>@your future</a>
+  </center></p>
+</footer>
+</body>
+</html>
